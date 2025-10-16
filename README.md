@@ -22,7 +22,7 @@ Minha meta é alcançar o nível técnico e estratégico de um **desenvolvedor s
 
 - Linguagens: `Java`, `Python`, `JavaScript`
 - Web: `HTML`, `CSS`, `JS`, `DOM`
-- Banco de dados: `MySQL`, `PostgreSQL`
+- Banco de dados: `MySQL`
 - Git e GitHub
 - Metodologias ágeis: `Scrum`, `Kanban`
 - Boas práticas: `Clean Code`, `SOLID`, `MVC`
