@@ -49,7 +49,7 @@ Confira os projetos que desenvolvi ao longo da minha jornada como estudante de D
 
 Se quiser trocar uma ideia, colaborar ou me chamar pra um projeto:
 
-**Email:** gustavo_da-camargo@estudante.sesisenai.org.br
+**Email:** gustavoscamargo2008@gmail.com
 
 ---
 
