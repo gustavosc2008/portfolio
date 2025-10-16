@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Barra fixa no topo */
+.barra-topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+.barra-topo a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seção de boas-vindas com imagem de fundo */
+.bemvindo {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.bemvindo h4 {
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 100px;
+  text-align: center;
+}
+
+/* Seção perfil */
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 100px 40px;
+  flex-wrap: wrap;
+}
+
+.perfil img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.perfil p {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Seção projetos */
+.projeto {
+  padding: 80px 40px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 100px; /* separação visual */
+}
+
+.projeto h4 {
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 10px;
+}
+
+.descricao-projetos {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #555;
+}
+
+/* Seção contato */
+.contato {
+  padding: 80px 40px;
+  background-color: #f4f4f4;
+  text-align: center;
+  border-top: 10px solid #ddd; /* separador visual */
+}
+
+.contato h4 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contato p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contato a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}
+
+/* Redes sociais */
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.redes-sociais a img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.redes-sociais a img:hover {
+  transform: scale(1.2);
+  filter: brightness(1.2);
+}
+
+/* Rodapé */
+.rodape {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .barra-topo {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .barra-topo a {
+    margin: 10px 0;
+  }
+
+  .bemvindo h4 {
+    font-size: 50px;
+  }
+
+  .perfil {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .perfil img {
+    width: 80%;
+  }
+
+  .projeto h4 {
+    font-size: 30px;
+  }
+
+  .descricao-projetos {
+    font-size: 16px;
+  }
+
+  .contato h4 {
+    font-size: 30px;
+  }
+
+  .redes-sociais {
+    gap: 20px;
+  }
+
+  .redes-sociais a img {
+    width: 40px;
+    height: 40px;
+  }
+}
