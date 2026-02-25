@@ -3,10 +3,10 @@
 ![Foto de perfil](https://gustavosc2008.github.io/portfolio/gustavo.jpg)
 
 ## 👋 Sobre mim
+Prazer, meu nome é **Gustavo**, tenho **17 anos** e estou em andamento o curso **curso de Engenharia de software** na católica sc, conclui curso de **Desenvolvimento de Sistemas** no senai campus sul e o ensino medio.
 
-Prazer, meu nome é **Gustavo**, tenho **17 anos** e estou prestes a concluir o **Ensino Médio** junto com o curso técnico em **Desenvolvimento de Sistemas**.
+Sou apaixonado por tecnologia e programação desde cedo. Me dedico intensamente ao estudo de linguagens como **Java**, **Python** e **JavaScript**, além de fundamentos de **banco de dados**, **lógica computacional** e **desenvolvimento web**
 
-Sou apaixonado por tecnologia e programação desde cedo. Me dedico intensamente ao estudo de linguagens como **Java**, **Python** e **JavaScript**, além de fundamentos de **banco de dados**, **lógica computacional** e **desenvolvimento web**.
 
 Minha meta é alcançar o nível técnico e estratégico de um **desenvolvedor sênior**, dominando ferramentas modernas, boas práticas de **arquitetura de software**, **versionamento com Git**, **metodologias ágeis** como *Scrum* e princípios de *Clean Code*.
 
